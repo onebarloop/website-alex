@@ -27,14 +27,20 @@ header {
 
 ul {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+
 
 /* MAIN */
 
 main {
     background-color: var(--beige);
 }
+
+    /* ME */
+
 
 .aboutme {
     display: flex;
@@ -44,3 +50,13 @@ img {
     width: 250px;
 }
 
+    /* INTERESTS */
+
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interests p {
+    width: 50%;
+}
