@@ -1,10 +1,11 @@
 :root {
-    --red: #ed6e58   
+    --red: #ed6e58;
+    --beige :#e8b9b0;   
 }
 
 * {
     box-sizing: border-box;   
-    border 1px solid red;
+    border: 1px solid white;
 }
 
 body {
@@ -18,10 +19,28 @@ body {
     margin-right: auto;
 }
 
+/* HEADER */
+
 header {
     background-color: var(--red);
 }
 
 ul {
     display: flex;
+    gap: 20px;
 }
+
+/* MAIN */
+
+main {
+    background-color: var(--beige);
+}
+
+.aboutme {
+    display: flex;
+}
+
+img {
+    width: 250px;
+}
+
