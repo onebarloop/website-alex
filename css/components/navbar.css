@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style: none;
+  padding: 1rem;
+}
+
+.navbar__item {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--beige);
+  font-weight: bold;
+}
