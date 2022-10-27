@@ -1,0 +1,46 @@
+.interests {
+  padding: 15px;
+  display: grid;
+  grid-template-areas:
+    "one one one two"
+    "three four four two"
+    "three . five five"
+    "six six five five ";
+
+  gap: 10px;
+}
+
+.interests__card {
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.interests__one {
+  background-color: #ed6e58;
+  grid-area: one;
+}
+
+.interests__two {
+  background-color: #ed6e58bd;
+  grid-area: two;
+}
+.interests__three {
+  background-color: #e54023;
+  grid-area: three;
+}
+
+.interests__four {
+  background-color: #974435;
+  color: white;
+  grid-area: four;
+}
+
+.interests__six {
+  background-color: #c14f3b;
+  grid-area: six;
+}
+
+.interests__five {
+  background-color: #ff4305;
+  grid-area: five;
+}

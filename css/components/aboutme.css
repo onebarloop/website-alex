@@ -1,0 +1,7 @@
+.aboutme {
+  display: flex;
+}
+
+.aboutme__img {
+  max-width: 250px;
+}
