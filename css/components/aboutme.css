@@ -5,3 +5,11 @@
 .aboutme__img {
   max-width: 250px;
 }
+
+.aboutme__text {
+  background-color: #fe9886;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 1.2em;
+  margin: 20px;
+}
