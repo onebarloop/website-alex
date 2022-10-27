@@ -45,3 +45,16 @@ h1 {
 main {
   background-color: var(--beige);
 }
+
+hr {
+  background-color: black;
+}
+
+.seperator {
+  height: 6px;
+  background-color: black;
+}
+
+.seperator2 {
+  background-color: black;
+}

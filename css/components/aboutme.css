@@ -4,6 +4,7 @@
 
 .aboutme__img {
   max-width: 250px;
+  margin-top: 5px;
 }
 
 .aboutme__text {
@@ -12,4 +13,11 @@
   font-weight: bolder;
   font-size: 1.2em;
   margin: 20px;
+}
+
+.aboutme__button {
+  display: block;
+  margin-left: auto;
+  background-color: black;
+  color: rgb(232, 159, 100);
 }
