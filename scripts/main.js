@@ -12,7 +12,7 @@ const greymode = document.querySelector('[data-js="grey"]');
 
 const interests = document.getElementsByClassName("interests__card");
 
-console.log(interests);
+//console.log(interests);
 
 function turnGrey(div) {
   div.classList.toggle("interests__card--grey");
@@ -23,3 +23,32 @@ greymode.addEventListener("click", () => {
     turnGrey(interests[i]);
   }
 });
+
+//progress bar
+
+const progressBar = document.querySelector('[data-js="progress-bar"]');
+
+const calculateScrollPercentage = () =>
+  (window.scrollY / (document.body.clientHeight - window.innerHeight)) * 100 +
+  "%";
+
+document.addEventListener("scroll", () => {
+  progressBar.style.width = calculateScrollPercentage();
+});
+
+// clock
+
+const clock = document.querySelector('[data-js="funbox"]');
+
+const time = new Date().toLocaleTimeString();
+
+clock.textContent = "You loaded this page at " + time;
+
+console.log("*********");
+console.log(
+  "You found the sourcecode. Awesome. You are welcome to review my code over at github"
+);
+
+console.log("https://github.com/onebarloop");
+
+console.log("*********");

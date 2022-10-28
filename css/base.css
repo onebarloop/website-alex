@@ -50,11 +50,12 @@ hr {
   background-color: black;
 }
 
-.seperator {
+.seperator__horizontal {
   height: 6px;
   background-color: black;
 }
 
-.seperator2 {
+.seperator__vertical {
   background-color: black;
+  width: 0;
 }

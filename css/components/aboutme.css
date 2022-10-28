@@ -7,6 +7,15 @@
   margin-top: 5px;
 }
 
+.aboutme__funbox {
+  max-width: 250px;
+  padding: 2px;
+  background-color: black;
+  color: white;
+  font-size: 0.8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .aboutme__text {
   background-color: #fe9886;
   padding: 10px;
@@ -21,4 +30,5 @@
   background-color: black;
   color: rgb(232, 159, 100);
   height: 2em;
+  font-size: 0.9em;
 }
