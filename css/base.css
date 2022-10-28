@@ -35,6 +35,26 @@ header {
   padding-top: 15px;
 }
 
+h1 {
+  background-color: bisque;
+  width: 50%;
+  border-radius: 0 5px 5px 0;
+  padding: 25px;
+}
+
 main {
   background-color: var(--beige);
+}
+
+hr {
+  background-color: black;
+}
+
+.seperator {
+  height: 6px;
+  background-color: black;
+}
+
+.seperator2 {
+  background-color: black;
 }

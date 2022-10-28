@@ -1,3 +1,19 @@
+.mainsegment {
+  display: grid;
+  grid-template-columns: 2fr 8px 1fr;
+}
+
+.sidesegment {
+  transition: background-color 1000ms linear;
+  background-color: rgba(0, 0, 0, 0.426);
+  margin: 15px;
+}
+
+.sidesegment--orange {
+  transition: background-color 1000ms linear;
+  background-color: #e54023;
+}
+
 .interests {
   padding: 15px;
   display: grid;
@@ -12,7 +28,8 @@
 
 .interests__card {
   border-radius: 20px;
-  padding: 5px;
+  padding: 5px 15px 5px 15px;
+  transition: background-color 1000ms linear;
 }
 
 .interests__one {
@@ -33,6 +50,7 @@
   background-color: #974435;
   color: white;
   grid-area: four;
+  transition: color 1000ms linear;
 }
 
 .interests__six {
@@ -43,4 +61,11 @@
 .interests__five {
   background-color: #ff4305;
   grid-area: five;
+}
+
+.interests__card--grey {
+  transition: background-color 1000ms linear;
+  transition: color 1000ms linear;
+  background-color: grey;
+  color: black;
 }
