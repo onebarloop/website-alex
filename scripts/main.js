@@ -44,6 +44,8 @@ const time = new Date().toLocaleTimeString();
 
 clock.textContent = "You loaded this page at " + time;
 
+//console fun
+
 console.log("*********");
 console.log(
   "You found the sourcecode. Awesome. You are welcome to review my code over at github"

@@ -1,0 +1,14 @@
+.mainsegment {
+  display: grid;
+  grid-template-columns: 2fr 8px 1fr;
+}
+
+.sidesegment {
+  transition: background-color 1000ms linear;
+  background-color: rgba(0, 0, 0, 0.426);
+  margin: 15px;
+}
+
+.sidesegment--orange {
+  background-color: #e54023;
+}
