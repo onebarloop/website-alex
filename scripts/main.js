@@ -12,8 +12,6 @@ const greymode = document.querySelector('[data-js="grey"]');
 
 const interests = document.getElementsByClassName("interests__card");
 
-//console.log(interests);
-
 function turnGrey(div) {
   div.classList.toggle("interests__card--grey");
 }
