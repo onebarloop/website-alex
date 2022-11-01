@@ -44,4 +44,5 @@
   grid-column: 1 / 4;
   height: 2.5em;
   font-family: calc;
+  padding: 10px;
 }

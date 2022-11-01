@@ -52,7 +52,7 @@ sliderBlur.addEventListener("input", () => {
   console.log(sliderRotation.value);
 });
 
-// fun button -- text and checkbox
+// fun button -- text
 
 const text = document.querySelector('[data-js="text"]');
 const check = document.querySelector('[data-js="check"]');
