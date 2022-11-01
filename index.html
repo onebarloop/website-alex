@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <script src="scripts/main.js" defer></script>
+    <script src="scripts/calc.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -77,6 +78,9 @@
           >
             <input type="range" value="0" max="50" data-js="radius" />
             <input type="range" value="0" max="180" data-js="rotation" />
+            <input type="range" value="0" max="20" data-js="blur" />
+
+            <!--<input type="checkbox" data-js="check" />-->
           </div>
         </section>
       </section>
@@ -140,7 +144,32 @@
           </article>
         </section>
         <div class="seperator__vertical" data-js="progress-bar"></div>
-        <div class="sidesegment" data-js="darkblock"></div>
+        <div class="sidesegment" data-js="darkblock">
+          <div class="calculator">
+            <div class="calculator__display" data-js="display"></div>
+            <button class="calculator__num" data-js="one">1</button>
+            <button class="calculator__num" data-js="two">2</button>
+            <button class="calculator__num" data-js="three">3</button>
+            <button class="calculator__num" data-js="four">4</button>
+            <button class="calculator__num" data-js="five">5</button>
+            <button class="calculator__num" data-js="six">6</button>
+            <button class="calculator__num" data-js="seven">7</button>
+            <button class="calculator__num" data-js="eight">8</button>
+            <button class="calculator__num" data-js="nine">9</button>
+            <button class="calculator__op" data-js="plus">+</button>
+            <button class="calculator__op" data-js="minus">-</button>
+            <button class="calculator__op" data-js="calc">=</button>
+            <button class="calculator__reset" data-js="reset">C</button>
+          </div>
+          <div class="sidesegment__seperator"></div>
+
+          <textarea
+            class="sidesegment__textarea"
+            data-js="text"
+            placeholder="write something..."
+          ></textarea>
+          <div class="sidesegment__textbox" data-js="textbox"></div>
+        </div>
       </div>
     </main>
   </body>

@@ -37,6 +37,8 @@
   background-color: black;
   color: #fe9886;
   padding: 5px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .aboutme__secretarea--hidden {

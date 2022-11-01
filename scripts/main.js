@@ -36,6 +36,7 @@ funBtn.addEventListener("click", () => {
 const pic = document.querySelector('[data-js="picture"]');
 const sliderRadius = document.querySelector('[data-js="radius"]');
 const sliderRotation = document.querySelector('[data-js="rotation"]');
+const sliderBlur = document.querySelector('[data-js="blur"]');
 
 sliderRadius.addEventListener("input", () => {
   pic.style.borderRadius = `${sliderRadius.value}%`;
@@ -44,6 +45,25 @@ sliderRadius.addEventListener("input", () => {
 sliderRotation.addEventListener("input", () => {
   pic.style.transform = `rotate(${sliderRotation.value}deg)`;
   console.log(sliderRotation.value);
+});
+
+sliderBlur.addEventListener("input", () => {
+  pic.style.filter = `blur(${sliderBlur.value}px)`;
+  console.log(sliderRotation.value);
+});
+
+// fun button -- text and checkbox
+
+const text = document.querySelector('[data-js="text"]');
+const check = document.querySelector('[data-js="check"]');
+const textbox = document.querySelector('[data-js="textbox"]');
+
+const displayText = (input) => {
+  textbox.textContent = `${input}`;
+};
+
+text.addEventListener("input", () => {
+  displayText(text.value);
 });
 
 //progress bar
