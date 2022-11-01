@@ -63,7 +63,11 @@ const displayText = (input) => {
 };
 
 text.addEventListener("input", () => {
-  displayText(text.value);
+  if (text.value === "") {
+    textbox.textContent = "Your text will be displayed here";
+  } else {
+    displayText(text.value);
+  }
 });
 
 //progress bar

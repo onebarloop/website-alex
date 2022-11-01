@@ -27,11 +27,10 @@
   outline: none;
   color: white;
   width: 80%;
-  height: 20%;
-
+  height: 10%;
   margin: auto;
-  margin-top: 20px;
-  display: blocK;
+  margin-top: 20%;
+  display: block;
   resize: none;
 }
 
@@ -40,4 +39,7 @@
   font-size: 1.5em;
   font-family: "Raleway", sans-serif;
   height: 20%;
+  background-color: rgba(0, 0, 0, 0.426);
+  opacity: 60%;
+  padding: 10px;
 }
