@@ -5,3 +5,8 @@
 @import url(components/box.css);
 @import url(components/segments.css);
 @import url(components/calculator.css);
+
+@font-face {
+  font-family: calc;
+  src: url(/assets/SummerPixel22Regular-jE0W7.ttf);
+}
