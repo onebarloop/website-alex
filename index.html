@@ -25,6 +25,7 @@
         <figure>
           <img
             class="aboutme__img"
+            data-js="picture"
             src="./assets/alex.jpeg"
             alt="Picture of me"
           />
@@ -64,11 +65,19 @@
             <button
               type="button"
               class="aboutme__button"
+              data-js="fun"
               aria-label="no function"
             >
-              NO FUNCTION
+              FUN!
             </button>
           </p>
+          <div
+            class="aboutme__secretarea aboutme__secretarea--hidden"
+            data-js="secretarea"
+          >
+            <input type="range" value="0" max="50" data-js="radius" />
+            <input type="range" value="0" max="180" data-js="rotation" />
+          </div>
         </section>
       </section>
       <div class="seperator__horizontal"></div>

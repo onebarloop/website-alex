@@ -22,6 +22,30 @@ greymode.addEventListener("click", () => {
   }
 });
 
+//fun button
+
+const funBtn = document.querySelector('[data-js="fun"]');
+const secretArea = document.querySelector('[data-js="secretarea"]');
+
+funBtn.addEventListener("click", () => {
+  secretArea.classList.toggle("aboutme__secretarea--hidden");
+});
+
+//fun button -- sliders
+
+const pic = document.querySelector('[data-js="picture"]');
+const sliderRadius = document.querySelector('[data-js="radius"]');
+const sliderRotation = document.querySelector('[data-js="rotation"]');
+
+sliderRadius.addEventListener("input", () => {
+  pic.style.borderRadius = `${sliderRadius.value}%`;
+});
+
+sliderRotation.addEventListener("input", () => {
+  pic.style.transform = `rotate(${sliderRotation.value}deg)`;
+  console.log(sliderRotation.value);
+});
+
 //progress bar
 
 const progressBar = document.querySelector('[data-js="progress-bar"]');
