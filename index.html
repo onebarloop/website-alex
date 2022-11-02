@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <script src="scripts/main.js" defer></script>
+    <script src="scripts/calc.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -25,6 +26,7 @@
         <figure>
           <img
             class="aboutme__img"
+            data-js="picture"
             src="./assets/alex.jpeg"
             alt="Picture of me"
           />
@@ -41,7 +43,12 @@
             wird sich immer mal wieder einiges (alles?) verändern! Spannend!
           </p>
 
-          <p>Für Verbesserungsvorschläge bin ich sehr dankbar!</p>
+          <p>
+            Für Verbesserungsvorschläge bin ich sehr dankbar!
+            <a style="font-style: italic" href="https://github.com/onebarloop"
+              >-> GitHub</a
+            >
+          </p>
           <div class="seperator__horizontal"></div>
           <p>
             Und hier was zum Spielen:
@@ -64,11 +71,22 @@
             <button
               type="button"
               class="aboutme__button"
+              data-js="fun"
               aria-label="no function"
             >
-              NO FUNCTION
+              FUN!
             </button>
           </p>
+          <div
+            class="aboutme__secretarea aboutme__secretarea--hidden"
+            data-js="secretarea"
+          >
+            <input type="range" value="0" max="50" data-js="radius" />
+            <input type="range" value="0" max="180" data-js="rotation" />
+            <input type="range" value="0" max="20" data-js="blur" />
+
+            <!--<input type="checkbox" data-js="check" />-->
+          </div>
         </section>
       </section>
       <div class="seperator__horizontal"></div>
@@ -131,7 +149,33 @@
           </article>
         </section>
         <div class="seperator__vertical" data-js="progress-bar"></div>
-        <div class="sidesegment" data-js="darkblock"></div>
+        <div class="sidesegment" data-js="darkblock">
+          <div class="calculator">
+            <div class="calculator__display" data-js="display"></div>
+            <button class="calculator__num" data-js="one">1</button>
+            <button class="calculator__num" data-js="two">2</button>
+            <button class="calculator__num" data-js="three">3</button>
+            <button class="calculator__num" data-js="four">4</button>
+            <button class="calculator__num" data-js="five">5</button>
+            <button class="calculator__num" data-js="six">6</button>
+            <button class="calculator__num" data-js="seven">7</button>
+            <button class="calculator__num" data-js="eight">8</button>
+            <button class="calculator__num" data-js="nine">9</button>
+            <button class="calculator__op" data-js="plus">+</button>
+            <button class="calculator__op" data-js="minus">-</button>
+            <button class="calculator__op" data-js="calc">=</button>
+            <button class="calculator__reset" data-js="reset">C</button>
+          </div>
+          <div class="sidesegment__seperator"></div>
+          <div class="sidesegment__textbox" data-js="textbox">
+            Your text will be displayed here
+          </div>
+          <textarea
+            class="sidesegment__textarea"
+            data-js="text"
+            placeholder="write something..."
+          ></textarea>
+        </div>
       </div>
     </main>
   </body>

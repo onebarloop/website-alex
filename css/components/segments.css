@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
 .mainsegment {
   display: grid;
   grid-template-columns: 2fr 8px 1fr;
@@ -7,8 +9,37 @@
   transition: background-color 1000ms linear;
   background-color: rgba(0, 0, 0, 0.426);
   margin: 15px;
+  padding: 20px;
 }
 
 .sidesegment--orange {
   background-color: #e54023;
+}
+
+.sidesegment__seperator {
+  background-color: black;
+  height: 5px;
+  margin: 50px 0 50px 0;
+}
+
+.sidesegment__textarea {
+  background-color: black;
+  outline: none;
+  color: white;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  margin-top: 20%;
+  display: block;
+  resize: none;
+}
+
+.sidesegment__textbox {
+  margin: 10px 15px;
+  font-size: 1.5em;
+  font-family: "Raleway", sans-serif;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.426);
+  opacity: 60%;
+  padding: 10px;
 }
