@@ -37,6 +37,7 @@ const pic = document.querySelector('[data-js="picture"]');
 const sliderRadius = document.querySelector('[data-js="radius"]');
 const sliderRotation = document.querySelector('[data-js="rotation"]');
 const sliderBlur = document.querySelector('[data-js="blur"]');
+// const check = document.querySelector('[data-js="check"]');
 
 sliderRadius.addEventListener("input", () => {
   pic.style.borderRadius = `${sliderRadius.value}%`;
@@ -52,10 +53,10 @@ sliderBlur.addEventListener("input", () => {
   console.log(sliderRotation.value);
 });
 
-// fun button -- text
+// textbox
 
 const text = document.querySelector('[data-js="text"]');
-const check = document.querySelector('[data-js="check"]');
+
 const textbox = document.querySelector('[data-js="textbox"]');
 
 const displayText = (input) => {
