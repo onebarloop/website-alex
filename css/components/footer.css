@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--red);
+  text-align: center;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.footer__button {
+  width: 90%;
+  background-color: black;
+  color: rgb(232, 159, 100);
+  font-size: 1.2em;
+  border-radius: 10px;
+}
+
+.footer__div {
+  height: 30px;
+  width: 30px;
+}
