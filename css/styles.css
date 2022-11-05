@@ -5,6 +5,7 @@
 @import url(components/box.css);
 @import url(components/segments.css);
 @import url(components/calculator.css);
+@import url(components/footer.css);
 
 @font-face {
   font-family: calc;
